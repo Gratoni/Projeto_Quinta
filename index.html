@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Fome Zero</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Realize seu Cadastro</h1>
+
+    <form action="enviar" method="get">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+        
+        <label for="Email">Email:</label>
+        <input type="email" id="Email" name="Email" required>
+    
+        <label for="Cnpj">CNPJ:</label>
+        <input type="text" id="Cnpj" name="Cnpj" required>
+    
+        <label for="Telefone">Telefone:</label>
+        <input type="text" id="Telefone" name="Telefone" required>
+    
+        <label for="Senha">Senha:</label>
+        <input type="password" name="Senha" id="Senha" required>
+    
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" rows="3" cols="30"
+        placeholder="Conte sobre o ramo atuante"></textarea>
+        
+        <button type="submit">Enviar</button>
+
+    </form>
+</body>
+</html>

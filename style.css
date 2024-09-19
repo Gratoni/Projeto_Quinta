@@ -1,0 +1,75 @@
+/* Estilos gerais do corpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9; /* Fundo claro */
+    color: #333; /* Texto escuro para contraste */
+    margin: 0;
+    padding: 20px;
+}
+
+/* Estilo do cabeçalho */
+h1 {
+    text-align: center;
+    color: #2c6e49; /* Verde suave */
+    margin-bottom: 20px;
+}
+
+/* Estilo do formulário */
+form {
+    background-color: #ffffff; /* Fundo branco para o formulário */
+    border: 1px solid #e0e0e0; /* Bordas suaves */
+    border-radius: 8px; /* Bordas arredondadas */
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    max-width: 400px; /* Largura máxima do formulário */
+    margin: auto; /* Centraliza o formulário */
+}
+
+/* Estilo dos rótulos */
+label {
+    display: block; /* Faz com que cada rótulo ocupe uma linha */
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Estilo dos inputs */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+    width: 95%; /* Largura total */
+    padding: 10px; /* Espaçamento interno */
+    margin-bottom: 15px; /* Espaçamento entre os campos */
+    border: 1px solid #e0e0e0; /* Bordas suaves */
+    border-radius: 5px; /* Bordas arredondadas */
+    font-size: 16px; /* Tamanho da fonte */
+}
+
+/* Estilo da área de texto */
+textarea {
+    resize: none; /* Desabilita redimensionamento */
+}
+
+/* Estilo dos botões */
+button {
+    background-color: #2c6e49; /* Verde suave */
+    color: white; /* Texto branco */
+    border: none; /* Sem bordas */
+    border-radius: 5px; /* Bordas arredondadas */
+    padding: 10px 15px; /* Espaçamento interno */
+    cursor: pointer; /* Muda o cursor para mão */
+    font-size: 16px; /* Tamanho da fonte */
+}
+
+/* Estilo do botão ao passar o mouse */
+button:hover {
+    background-color: #236b3c; /* Verde mais escuro */
+}
+
+/* Estilo para mensagens de erro ou sucesso */
+.message {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+}
+  
